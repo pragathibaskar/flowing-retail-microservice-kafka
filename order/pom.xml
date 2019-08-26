@@ -159,17 +159,17 @@
         </snapshots>
     </repository>
 	</repositories>
-   <build>
+  <build>
     	<plugins>
 			 <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>              
-                <configuration>                         
-    				 <archive>
-                       <manifest>
-                         <mainClass>io.flowing.retail.order.OrderApplication</mainClass>
-                            </manifest>
-                      </archive>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>              
+                <configuration>  
+                <archive>
+                <manifest>
+                 <mainClass>io.flowing.retail.order.OrderApplication</mainClass>
+                </manifest>
+                </archive>                      	 
                 </configuration>
              </plugin>      
     	</plugins>
