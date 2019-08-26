@@ -167,7 +167,7 @@
                 <configuration>                         
     				 <archive>
                        <manifest>
-                         <mainClass>io.flowing.retail.order</mainClass>
+                         <mainClass>io.flowing.retail.order.OrderApplication</mainClass>
                             </manifest>
                       </archive>
                 </configuration>
