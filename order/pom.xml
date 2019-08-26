@@ -163,7 +163,7 @@
     	<plugins>
 			 <plugin>
                 <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>              
+                <artifactId>maven-jar-plugin</artifactId>              
                 <configuration>                         
     				 <archive>
                        <manifest>
